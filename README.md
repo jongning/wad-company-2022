@@ -1,19 +1,15 @@
-# wad-company-2022
-# Welcome to Web Development Project Final!
-# The Owner name "Chanoknon Tangtheinkul or yall can me "Jong"
-# Hope you enjoy!
-#In Quotation page where users can add products, prices, and quantity. 
-Add a [Save] button to save the quotation to the collection [Quotation] in MongoDB. 
+#Company-quotation
+By Chanoknon Tangthienkul 6217412
 
-#[4 marks] Build a [Quotation Management] page (similar to Product Management page). 
-This page should be accessible from the top navigation bar. The page has the following functionalities 
+#Project Description
+This project is built using the MERN stack and deployed with Heroku. The main goal of this project is to implement CRUD with the MERN stack.
 
-#[4 marks] Show a table of of all quotations sorted by date of creation. 
+Functionality
+There are mainly 4 pages in the web application
 
-#[4 marks] Delete a quotation record 
-
-# Do not allow edit 
-
-# [4 marks] Show total amount sold calculated from sum of all quotations' total amount. 
-
-# [4 marks] A button to create new Quotation. This should link to the existing quotation building page. 
+-In the home page is for the user to sign in
+-Following that comes the quotation page, which allows the user to make a new quotation from the form by entering the item, price, and quantity. The item and price are the data that is retrieved from the products collection. The user selects a drop down item and the price is generated automatically from the database. The user simply needs to enter a quantity and click save, and the data is saved in the quote collection in MongoDB.
+-The third tab is the product management page, which is linked to the product collection and allows for the addition, editing, and deletion of new products.
+-The last page is the quote management, which displays a list of items that have been saved in the quotation collection. It appears in a table with the date, item name, quantity, price, amount, and total amount of all items. The item is ordered by the date entered. Furthermore, if the user wants to add more quotations, they may do so by clicking on the create quote button, which will take them to the create-quotation page.
+Deployment
+Deploy the web application using Heroku; a URL to the web application is provided below.
